@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Fernanda Jacques</title>
+    <link rel="icon" type="image/png" href="./images/001-fly-shape.png">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="nav">
+        <div class="top">
+            <a href="#home"><img src="./images/portfolio-logo01.png" alt="FJ logo" class="logo"></a>
+            <span class="name">Fernanda Jacques</span>
+        </div>
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="home">
+        <div class="main-info">
+            <p>Hello I'm Fernanda Jacques,</p>
+            <h1>Web developer</h1>
+            <p>based in Southwestern UK.</p>
+
+            <div class="main-btn">
+                <img src="./images/arrrow.png" alt="arrow" width="100px" class="arrow">
+                <a href="./cv.html" class="btn">My CV</a>
+            </div>
+        </div>
+
+        <div class="profile-pic">
+            <img src="./images/rsz_fernanda.jpg" alt="profile picture" class="pic" width="350px">
+            <img src="./images/circulo01.png" alt="dooldle" class="doodle" width="350px">
+        </div>
+    </main>
+
+    <section id="about">
+        <h2>about me.</h2>
+        <p>Once upon a time, I started career in STEM with a BSc degree, and went all the way up to my PhD. For several years, I splitted my time between my research and teaching at a local University. As time went on, I developed an interest in programming, taking a couple of courses on Python, hoping to work with computational biology</p>
+        <p>And then life changed its course, I moved country and thought it was a nice opportunity to change career as well. As I did not feel ready to move into a dev position at the time, my methodical and critical approach made it easy for me to transition to tech as a QA test analyst</p>
+        <p>Now, I feel it is time to take the next step!</p>
+
+        <div class="career-cards">
+            <h3 class="career-title">2014</h3>
+            <p class="career-content">In the early 2000's, I graduated in Biological Science. Then, had the opportunity to go further in my education, and I got my Master's in 2010, and my PhD in 2014.</p>
+        </div>
+
+        <div class="career-cards">
+            <h3 class="career-title">2016</h3>
+            <p class="career-content">I came across a piece of software to help identify sandflies species, and it sparkled my interest in applying coding into biology studies. That was then I took my first programming course on Python (and many others after that!)</p>
+        </div>
+
+        <div class="career-cards">
+            <h3 class="career-title">2021</h3>
+            <p class="career-content">In 2019, I relocated to England, and COVID-19 came soon after. I used that time to study more and decided to change career. Started an online bootcamp on Web development and quality assurance. And that's how I ended up in the tech industry.</p>
+        </div>
+
+        <div class="career-cards">
+            <h3 class="career-title">2022</h3>
+            <p class="career-content">This is the key year: I had the opportunity to do a web development bootcamp offered by Bath Spa University. </p>
+        </div>
+
+    </section>
+
+    <section id="projects">
+        <h2>projects.</h2>
+
+        <p>Check some of my work:</p>
+
+        <div class="project-container">
+            <a href="https://github.com/fernandajacques/BathSpaBootcamp" class="btn project-btn" target="_blank" rel="noopener noreferrer">Bath Spa Bootcamp Projects</a>
+            <a href="https://github.com/fernandajacques/udemy-50projects" class="btn project-btn" target="_blank" rel="noopener noreferrer">50 Projects Course</a>
+            <a href="https://github.com/fernandajacques/MuseumOfCandy" class="btn project-btn" target="_blank" rel="noopener noreferrer">Web Dev Bootcamp 2022</a>
+            <a href="https://tangerine-sunshine-ede3d4.netlify.app/index.html" class="btn project-btn" target="_blank" rel="noopener noreferrer">Ahoy! DVD Shop</a>
+            <a href="https://github.com/fernandajacques/advent-of-code" class="btn project-btn" target="_blank" rel="noopener noreferrer">Advent of Code 2022</a>
+        </div>
+        
+    </section>
+
+    <section id="contact-me">
+        <h2>where you can find me.</h2>
+        <div class="contact github">
+            <form class="user-form" id="form-github">
+                <div class="search-container">
+                    <input type="text" id="search-github" placeholder="Search a GitHub User">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+            </form>
+
+            <div class="github-card" id="github-card"></div>
+        </div>
+
+    </section>
+
+    <footer>
+        <span>Find me on other social medias:</span>
+        
+        <ul>
+            <li><a href="https://www.facebook.com/fernanda.colla"><i class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="https://twitter.com/fernandacolla"><i class="fa-brands fa-square-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/fernandajacques/"><i class="fa-brands fa-square-instagram"></i></a></li>
+        </ul>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.0/axios.min.js" integrity="sha512-OdkysyYNjK4CZHgB+dkw9xQp66hZ9TLqmS2vXaBrftfyJeduVhyy1cOfoxiKdi4/bfgpco6REu6Rb+V2oVIRWg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
